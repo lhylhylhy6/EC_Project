@@ -2,3 +2,15 @@
 
 ---
 
+```c
+目录结构：
+   -EC_Project
+    	|--RTT-Frame
+    		|--application
+    		|--visual
+			|--mvctrl
+    		|--Cloud service
+    		|--UI design
+    		|--Sensor code
+```
+
