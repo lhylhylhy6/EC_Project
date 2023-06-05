@@ -8,11 +8,15 @@
  * 2023-06-04     Yifang       the first version
  */
 #include "bmp280_config.h"
+#include <stdio.h>
 
 I2C_HandleTypeDef hi2c2;
 
 static BMP280_HandleTypedef bmp280;
 static float pressure, temperature, humidity;
+
+#include <stdio.h>
+#include <rtthread.h>
 
 /* Init function */
 static int bmp280_drv_init(int argc, char *argv[])
@@ -25,32 +29,33 @@ static int bmp280_drv_init(int argc, char *argv[])
 
     while (!bmp280_init(&bmp280, &bmp280.params))
     {
-        rt_kprintf("BMP280 initialization failed\n");
+        printf("BMP280 initialization failed\n");
         HAL_Delay(2000);
     }
+    printf("bmp280.id is 0x%x\n",bmp280.id);
     bool bme280p = bmp280.id == BME280_CHIP_ID;
-    rt_kprintf("BMP280: found %s\n",bme280p);
+    printf("BMP280: found %d\n",bme280p);
 
     while(1)
     {
         rt_thread_mdelay(100);
         while (!bmp280_read_float(&bmp280, &temperature, &pressure, &humidity))
         {
-            rt_kprintf("Temperature/pressure reading failed\n");
-            rt_thread_mdelay(2000);
+            printf("Temperature/pressure reading failed\n");
+            HAL_Delay(2000);
         }
 
-        rt_kprintf("Pressure: %.2f Pa, Temperature: %.2f C", pressure, temperature);
+        printf("Pressure: %.2f Pa, Temperature: %.2f C", pressure, temperature);
         if (bme280p)
         {
-            rt_kprintf(", Humidity: %.2f\n", humidity);
+            printf(", Humidity: %.2f\n", humidity);
         }
 
         else
         {
-            rt_kprintf("\n");
+            printf("\n");
         }
-        rt_thread_mdelay(2000);
+        HAL_Delay(2000);
     }
 
     return 0;
