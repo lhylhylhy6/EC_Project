@@ -15,9 +15,6 @@ I2C_HandleTypeDef hi2c2;
 static BMP280_HandleTypedef bmp280;
 static float pressure, temperature, humidity;
 
-#include <stdio.h>
-#include <rtthread.h>
-
 /* Init function */
 static int bmp280_drv_init(int argc, char *argv[])
 {
