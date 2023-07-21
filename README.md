@@ -1,4 +1,6 @@
 <h1 align="center">Welcome to EC_Project 👋</h1>
+
+<div align="center">
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-v2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/KurisaW-Collaborative/EC_Project/tree/main/Documents" target="_blank">
@@ -14,6 +16,7 @@
     <img alt="Twitter: KurisaWhh" src="https://img.shields.io/twitter/follow/KurisaWhh.svg?style=social" />
   </a>
 </p>
+</div>
 
 
 > China 2023 National College Students Embedded Chip Design and System Competition: Urban patrol car
