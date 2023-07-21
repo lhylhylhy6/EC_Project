@@ -69,11 +69,12 @@ Give a ⭐️ if this project helped you!
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
-## 📝 License
+***
 
+<div align="center">
+  
 Copyright © 2023 [kurisaW](https://github.com/KurisaW-Collaborative).<br />
 This project is [MIT](https://github.com/KurisaW-Collaborative/EC_Project/blob/main/LICENSE) licensed.
-
-***
+</dtv>
 
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
