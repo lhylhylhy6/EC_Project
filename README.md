@@ -19,6 +19,28 @@
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/KurisaW-Collaborative/EC_Project/issues). You can also take a look at the [contributing guide](https://github.com/KurisaW-Collaborative/EC_Project/graphs/contributors).
 
+**Thank you for submitting code contributions to the project repositor：**
+
+<!-- Avatar and User Name Section -->
+<div style="text-align: center;">
+  <a href="https://github.com/kurisaW">
+    <img src="https://avatars.githubusercontent.com/u/98592772?v=4" width="70" alt="kurisaW">
+    <p style="margin-top: 5px;">kurisaW</p>
+  </a>
+</div>
+<div style="text-align: center;">
+  <a href="https://github.com/guapi61">
+    <img src="https://avatars.githubusercontent.com/u/115223041?v=4" width="70" alt="Nedki-L">
+    <p style="margin-top: 5px;">guapi61</p>
+  </a>
+</div>
+<div style="text-align: center;">
+  <a href="https://github.com/Nedki-L">
+    <img src="https://avatars.githubusercontent.com/u/114712457?v=4" width="70" alt="Nedki-L">
+    <p style="margin-top: 5px;">Nedki-L</p>
+  </a>
+</div>
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
