@@ -31,7 +31,7 @@
 
 * Website: https://kurisaw.eu.org/
 * Twitter: [@KurisaWhh](https://twitter.com/KurisaWhh)
-* Github: [@KurisaW-Collaborative](https://github.com/KurisaW-Collaborative)
+* Github: [@kurisaW](https://github.com/kurisaW)
 
 ## 🤝 Contributing
 
