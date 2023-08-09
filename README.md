@@ -23,6 +23,8 @@
 
 ### 🏠 [Homepage](https://github.com/KurisaW-Collaborative/EC_Project)
 
+### 📙 [Wiki](https://github.com/KurisaW-Collaborative/EC_Project.wiki.git)
+
 ### ✨ [Demo](https://www.bilibili.com/video/BV1oN411b7jM/?vd_source=7de393144f462a4eade54292bd598c34)
 
 ## Author
